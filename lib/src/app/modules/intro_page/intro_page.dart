@@ -1,10 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:sir/src/app/modules/balance_page/Curiosidade.dart';
 import 'package:sir/src/app/modules/Sobre_flutter/sobre.dart';
-import 'package:sir/src/app/modules/home/home_page.dart';
 import 'package:sir/src/utils/export.dart';
 import 'package:sir/src/app/components/standard_form.dart';
-import 'package:sir/src/app/components/standard_button.dart';
 
 // ignore: use_key_in_widget_constructors
 class IntroPage extends StatelessWidget {
@@ -38,9 +35,9 @@ class IntroPage extends StatelessWidget {
               const SizedBox(height: 30),
               StandardForm(label: login),
               const SizedBox(height: 15),
-              TextField(
+              const TextField(
                 obscureText: true,
-                decoration: const InputDecoration(
+                decoration: InputDecoration(
                   labelText: password,
                 ),
               ),
